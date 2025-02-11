@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bijour Bank App</title>
+        <link rel="stylesheet" href="./assets/css/app.css" />
+        <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script> -->
+        <script src="./assets/js/app.js" type="module" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="grid-container">
+                <div class="grid-x">
+                    <div class="cell">
+                        <div class="profil">
+                            <img src="https://i.pravatar.cc/300" alt="Profil" />
+                            <span>John Doe</span>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="solde">
+                            3248,48 <span class="devise">€</span>
+                            <div class="stats green">+2%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="grid-container">
+                <div class="grid-x">
+                    <div class="cell">
+                        <div class="transactions">
+                            <h2 class="h1">Transations</h2>
+                            <div>
+                                <canvas id="myChart" class="myChart"></canvas>
+                            </div>
+                            <div class="details">
+                                <div class="transation">
+                                    <div class="grid-x">
+                                        <div class="cell auto">Salaire</div>
+                                        <div class="cell shrink">
+                                            <div class="amount green">
+                                                +1800
+                                                <span class="devise">€</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transation">
+                                    <div class="grid-x">
+                                        <div class="cell auto">Loyer</div>
+                                        <div class="cell shrink">
+                                            <div class="amount">
+                                                -900
+                                                <span class="devise">€</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>&#8962;</li>
+                    <li>&#43;</li>
+                </ul>
+            </nav>
+            <div class="text-center">
+                <small>&copy 2025</small>
+            </div>
+        </footer>
+    </body>
+</html>

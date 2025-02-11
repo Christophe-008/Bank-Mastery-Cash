@@ -1,0 +1,87 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.9.0/css/foundation.min.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    padding-top: 1rem;
+}
+main {
+    flex: 1;
+    margin-top: -2.5rem;
+}
+footer {
+    nav {
+        display: flex;
+        justify-content: center;
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            gap: 1rem;
+            background-color: black;
+            padding: 0 1rem;
+            border-radius: 25px;
+            color: white;
+            li {
+                font-size: 24px; /* Ajuste la taille des icônes si besoin */
+            }
+        }
+    }
+}
+.green {
+    color: green;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 0.5rem;
+    }
+}
+.solde {
+    padding: 1rem;
+    background-color: black;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 3.5rem;
+    .stats {
+        font-size: 1rem;
+        &.green {
+            color: green;
+        }
+        &.red {
+            color: red;
+        }
+    }
+}
+.transactions {
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    .details {
+        margin-top: 1rem;
+        .transation {
+            padding: 0.5rem 0;
+        }
+    }
+}
