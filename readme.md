@@ -52,3 +52,5 @@ Voici ce que vous devrez implémenter :
     -   Vous pouvez utiliser une simple bascule de devise avec un bouton dans l'interface, et il faudra que la conversion se fasse en fonction du taux de change actuel.
 
 -   Respecter la charte graphique et le code existant
+
+[étapes projet](/etape.md)
